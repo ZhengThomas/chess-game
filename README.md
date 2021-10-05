@@ -1,6 +1,6 @@
 Chess game
 
-https://cdn.discordapp.com/attachments/720093329852858419/894801239236300800/unknown.png
+![image of the chess](https://cdn.discordapp.com/attachments/720093329852858419/894801239236300800/unknown.png)
 
 it has a chess ai, capable of searching on average 6 moves ahead of itself, paired with many other complicated chess ai optimizations, such as zobrist hashing and use of a transposition table
 
