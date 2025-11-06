@@ -2,8 +2,6 @@ Chess game
 
 ![image of the chess](https://cdn.discordapp.com/attachments/720093329852858419/894801239236300800/unknown.png)
 
-it has a chess ai, capable of searching on average 6 moves ahead of itself, paired with many other complicated chess ai optimizations, such as zobrist hashing and use of a transposition table
+It has a chess ai, capable of searching on average 6 moves ahead of itself, paired with many other complicated chess ai optimizations, such as zobrist hashing and use of a transposition table
 
-It also has the capability of playing online. However, no external server has been set up for this, and so if you want to play online, you will either have to set up an external server yourself, or you can play fake online by personally hosting the server
-
-if you want to play fake online, all you need to do is run the server.js file and it will work
+It also has the capability of playing online, given an online server is deployed. This costed me money unfortunately, so I've take it down. Feel free to message me about how hosting the server would work, or just run the server.js file yourself and have a friend connect.
