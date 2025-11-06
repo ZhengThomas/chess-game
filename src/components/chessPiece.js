@@ -18,10 +18,10 @@ export function ChessPiece({index, team, piece}){
 
     return(
         <>
-        <DragPreviewImage connect={preview} src = {"/images/emptyImage.png"} />
+        <DragPreviewImage connect={preview} src = {window.location.origin + "/images/emptyImage.png"} />
         
         <div ref = {drag}>
-            <img src = {`/images/${imgRef}`} className = "chessPiece" style = {{width:"min(11vh, 11vw)", opacity: isDragging ? 0 : 1}}/>
+            <img src = {window.location.origin + `/images/${imgRef}`} className = "chessPiece" style = {{width:"min(11vh, 11vw)", opacity: isDragging ? 0 : 1}}/>
         </div>
         
         </>
